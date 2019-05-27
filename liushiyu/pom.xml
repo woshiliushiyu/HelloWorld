@@ -10,8 +10,8 @@
     </parent>
 
     <groupId>com</groupId>
-    <artifactId>liushiyu</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>lsy</artifactId>
+    <version>0.0.1</version>
     <name>liushiyu</name>
     <description>Demo project for Spring Boot</description>
 
