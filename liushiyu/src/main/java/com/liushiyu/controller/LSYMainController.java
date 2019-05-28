@@ -10,6 +10,7 @@ public class LSYMainController {
     @RequestMapping(value = "/index")
     @ResponseBody
     public String index() {
+        System.out.println("请求成功");
         return "请求成功01";
     }
 }
