@@ -30,10 +30,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.clapper/grizzled-slf4j -->
+        <!--打印-->
         <dependency>
-            <groupId>org.clapper</groupId>
-            <artifactId>grizzled-slf4j_2.12</artifactId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.2</version>
         </dependency>
 
     </dependencies>
