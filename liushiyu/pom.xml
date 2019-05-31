@@ -13,6 +13,7 @@
     <artifactId>lsy</artifactId>
     <version>0.0.1</version>
     <name>liushiyu</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

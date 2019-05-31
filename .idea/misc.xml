@@ -6,7 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liushiyu/pom.xml" />
-        <option value="$PROJECT_DIR$/cms_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_data/pom.xml" />
       </list>
     </option>
   </component>

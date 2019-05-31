@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d5fc49-84a5-4957-8ae5-c7001e3501b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/utils/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms_data/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/cms_datasource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/src/main/java/com/liushiyu/LiushiyuApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms_datasource/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/liushiyu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/LiushiyuApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/controller/LSYMainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/test-classes/com/liushiyu/LiushiyuApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liushiyu/target/" />
+    <ignored path="$PROJECT_DIR$/cms_datasource/target/" />
+    <ignored path="$PROJECT_DIR$/cms_data/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,28 +36,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-283">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/serviceImpl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/dao/UserDaoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,31 +83,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liushiyu/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cms_data/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="720">
+              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/LiushiyuApplication.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="195">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/test/java/com/cnlive/CnliveApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserDaoExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/CnliveApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -88,9 +148,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insertSelective</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,7 +169,18 @@
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/utils/Generator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/liushiyu/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cms_data/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/CnliveApplication.java" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cms_data/src/test/java/com/cnlive/CnliveApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -118,16 +196,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="helloworld" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cnlive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="helloworld" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="cnlive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="liushiyu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cnlive" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -137,7 +217,7 @@
     <option name="x" value="70" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,8 +229,154 @@
         <subPane>
           <expand>
             <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helloworld01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helloworld01" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cnlive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,16 +387,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559219138262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559317715626" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RunDashboard">
@@ -185,15 +415,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CnliveApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Generator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cnlive.utils.Generator" />
+      <module name="cms_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnlive.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CnliveApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms_data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnlive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cnlive" />
+      <option name="MAIN_CLASS_NAME" value="com.cnlive.CnliveApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CnliveApplicationTests.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms_data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cnlive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cnlive" />
+      <option name="MAIN_CLASS_NAME" value="com.cnlive.CnliveApplicationTests" />
+      <option name="METHOD_NAME" value="select" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,8 +483,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CnliveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms_data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cnlive.CnliveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiushiyuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lsy" />
+      <module name="liushiyu" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liushiyu.LiushiyuApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -230,6 +515,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Spring Boot.LiushiyuApplication" />
+      <item itemvalue="Spring Boot.CnliveApplication" />
+      <item itemvalue="JUnit.CnliveApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.CnliveApplicationTests.select" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CnliveApplicationTests.select" />
+        <item itemvalue="JUnit.CnliveApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -246,16 +544,39 @@
       <workItem from="1559008857986" duration="1242000" />
       <workItem from="1559120062756" duration="1560000" />
       <workItem from="1559199994927" duration="1643000" />
+      <workItem from="1559307667160" duration="3836000" />
+      <workItem from="1559312448103" duration="2137000" />
+      <workItem from="1559314749662" duration="2561000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CnliveApplicationTests_contextLoads - 2019.05.31 at 23h 28m 05s.xml">
+      <configuration name="CnliveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CnliveApplicationTests_contextLoads - 2019.05.31 at 23h 30m 30s.xml">
+      <configuration name="CnliveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CnliveApplicationTests_contextLoads - 2019.05.31 at 23h 32m 44s.xml">
+      <configuration name="CnliveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CnliveApplicationTests_contextLoads - 2019.05.31 at 23h 39m 44s.xml">
+      <configuration name="CnliveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CnliveApplicationTests_contextLoads - 2019.05.31 at 23h 42m 48s.xml">
+      <configuration name="CnliveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CnliveApplicationTests_select - 2019.05.31 at 23h 43m 39s.xml">
+      <configuration name="CnliveApplicationTests.select" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6201000" />
+    <option name="totallyTimeSpent" value="14735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="23" width="1280" height="726" extended-state="0" />
+    <frame x="70" y="23" width="1280" height="811" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -265,7 +586,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.77602524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,13 +615,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/Duration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -312,10 +627,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sqlData/pom.xml" />
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,49 +654,271 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/cms_datasource/src/main/java/com/liushiyu/LiushiyuApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cms_cnlive/cms_cnlive.iml" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40678">
+          <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/resources/mapper/UserBeanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar!/org/mybatis/generator/config/xml/mybatis-generator-config_1_0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="149" column="2" selection-start-line="149" selection-start-column="2" selection-end-line="149" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/dao/UserBeanMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/utils/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserBeanExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="613" column="24" selection-start-line="613" selection-start-column="24" selection-end-line="613" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/resources/mapper/UserDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="432" column="29" selection-start-line="432" selection-start-column="14" selection-end-line="432" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserDaoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/dao/UserDaoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/CnliveApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/test/java/com/cnlive/CnliveApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
+        <state relative-caret-position="195">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqlData/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cms_data/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="720">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cms_data</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
