@@ -1,10 +1,9 @@
-package com.cnlive.dao;
+package com.liushiyu.dao;
 
-import com.cnlive.bean.UserDao;
-import com.cnlive.bean.UserDaoExample;
-import org.apache.ibatis.annotations.Param;
-
+import com.liushiyu.bean.UserDao;
+import com.liushiyu.bean.UserDaoExample;
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface UserDaoMapper {
     int deleteByExample(UserDaoExample example);

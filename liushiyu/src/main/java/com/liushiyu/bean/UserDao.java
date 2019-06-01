@@ -1,4 +1,4 @@
-package com.cnlive.bean;
+package com.liushiyu.bean;
 
 public class UserDao {
     private Integer id;
