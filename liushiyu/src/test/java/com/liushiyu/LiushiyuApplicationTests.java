@@ -2,6 +2,7 @@ package com.liushiyu;
 
 import com.liushiyu.dao.UserDaoExample;
 import com.liushiyu.service.UserService;
+import com.liushiyu.service.WechatService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +18,19 @@ public class LiushiyuApplicationTests {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private WechatService wechatService;
+
     @Test
     public void contextLoads() {
 
         System.out.println(userService.getAllData());
+    }
+
+
+    @Test
+    public void wechatAction() {
+
     }
 
 }
