@@ -3,9 +3,12 @@ package com.liushiyu.dao;
 import com.liushiyu.bean.UserDao;
 import com.liushiyu.bean.UserDaoExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserDaoMapper {
+
     int deleteByExample(UserDaoExample example);
 
     int insert(UserDao record);
