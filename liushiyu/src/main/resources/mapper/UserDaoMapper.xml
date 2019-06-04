@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.liushiyu.dao.UserDaoMapper" >
-  <resultMap id="BaseResultMap" type="com.liushiyu.bean.UserDao" >
+<mapper namespace="com.liushiyu.bean.UserDaoMapper" >
+  <resultMap id="BaseResultMap" type="com.liushiyu.dao.UserDao" >
     <result column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="sex" property="sex" jdbcType="VARCHAR" />
@@ -70,7 +70,7 @@
   <sql id="Base_Column_List" >
     id, name, sex, home, info, pwd
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.liushiyu.bean.UserDaoExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.liushiyu.dao.UserDaoExample" >
     select
     <if test="distinct" >
       distinct
@@ -84,19 +84,19 @@
       order by ${orderByClause}
     </if>
   </select>
-  <delete id="deleteByExample" parameterType="com.liushiyu.bean.UserDaoExample" >
+  <delete id="deleteByExample" parameterType="com.liushiyu.dao.UserDaoExample" >
     delete from t_user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.liushiyu.bean.UserDao" >
+  <insert id="insert" parameterType="com.liushiyu.dao.UserDao" >
     insert into t_user (id, name, sex, 
       home, info, pwd)
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
       #{home,jdbcType=VARCHAR}, #{info,jdbcType=VARCHAR}, #{pwd,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.liushiyu.bean.UserDao" >
+  <insert id="insertSelective" parameterType="com.liushiyu.dao.UserDao" >
     insert into t_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >

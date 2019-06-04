@@ -1,4 +1,4 @@
-package com.liushiyu.bean;
+package com.liushiyu.dao;
 
 import java.util.ArrayList;
 import java.util.List;

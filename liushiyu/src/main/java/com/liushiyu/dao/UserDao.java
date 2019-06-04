@@ -1,4 +1,4 @@
-package com.liushiyu.bean;
+package com.liushiyu.dao;
 
 public class UserDao {
     private Integer id;
