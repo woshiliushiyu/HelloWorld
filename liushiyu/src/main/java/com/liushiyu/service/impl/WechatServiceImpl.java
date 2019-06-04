@@ -10,6 +10,8 @@ import com.liushiyu.service.WechatService;
 import com.liushiyu.util.ReplyMessageUtil;
 import com.liushiyu.util.ResponseMessageType;
 import com.liushiyu.util.XmlUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,8 @@ import java.util.*;
 
 @Service
 public class WechatServiceImpl implements WechatService {
+
+    private static final Logger logger = LoggerFactory.getLogger(WechatServiceImpl.class);
 
     @Autowired
     private WechatDaoMapper wechatHomeMapper;
@@ -39,7 +43,7 @@ public class WechatServiceImpl implements WechatService {
             //获取消息内容
             String msgContent = map.get("Content");
 
-            System.out.println("客户端发来的消息进行打印"+map.toString());
+            logger.info("客户端发来的消息进行打印"+map.toString());
 
             if (MsgType.equals(ResponseMessageType.TEXT_MESSAGE)) {
 
