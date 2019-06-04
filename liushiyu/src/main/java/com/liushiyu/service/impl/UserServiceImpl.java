@@ -22,4 +22,15 @@ public class UserServiceImpl implements UserService {
         criteria.andIdEqualTo(1);
         return userDaoMapper.selectByExample(userDaoExample);
     }
+
+    @Override
+    public void updataHome(String name, Integer id) {
+        UserDaoExample userDaoExample = new UserDaoExample();
+        UserDaoExample.Criteria criteria = userDaoExample.createCriteria();
+        criteria.andIdEqualTo(id);
+        criteria.andNameEqualTo(name);
+        UserDao userDao = new UserDao();
+        userDao.setHome(name);
+        userDaoMapper.updateByExampleSelective(null,userDaoExample);
+    }
 }

@@ -6,6 +6,8 @@ import com.liushiyu.service.WechatService;
 import com.liushiyu.util.ResponseMessageType;
 import com.liushiyu.util.WebChatUtil;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,24 +35,17 @@ public class LSYMainController {
     @Autowired
     private WechatService wechatService;
 
-    @RequestMapping(value = "/index")
-    @ResponseBody
-    public List<UserDao> index() {
-        System.out.println("请求成功");
-        logger.info("开始请求成功"+"index");
-        return userService.getAllData();
-    }
-
     /**
      * 测试 GET 请求
      * @return
      */
-//    @ApiOperation(value = "专项管理", notes = "notes", httpMethod = "GET")
-//    @RequestMapping(value = "/hello",method = RequestMethod.GET)
-//    @ResponseBody
-//    public List index() {
-//        return wechatService.selectHomeBean();
-//    }
+    @ApiOperation(value = "专项管理", notes = "notes", httpMethod = "GET")
+    @RequestMapping(value = "/hello",method = RequestMethod.GET)
+    @ResponseBody
+    public List getUserDao() {
+        logger.info("获取所有数据");
+        return userService.getAllData();
+    }
 
 
     /**
@@ -58,17 +53,17 @@ public class LSYMainController {
      * @param name
      * @param id
      */
-//    @ApiOperation(value = "更新数据",notes = "update", httpMethod = "POST")
-//    @ApiImplicitParams({
-//            @ApiImplicitParam(name = "id", value = "数据 ID", required = true),
-//            @ApiImplicitParam(name = "name", value = "更改数据", required = true)
-//    })
-//    @RequestMapping(value = "/check",method = RequestMethod.POST)
-//    @ResponseBody
-//    public void update(@RequestParam("name") String name, @RequestParam("id") Integer id) {
-//        System.out.println("获取的数据"+name+"  "+id);
-//        cnliveHomeService.updataHome(name,id);
-//    }
+    @ApiOperation(value = "更新数据",notes = "update", httpMethod = "POST")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id", value = "数据 ID", required = true),
+            @ApiImplicitParam(name = "name", value = "更改数据", required = true)
+    })
+    @RequestMapping(value = "/check",method = RequestMethod.POST)
+    @ResponseBody
+    public void update(@RequestParam("name") String name, @RequestParam("id") Integer id) {
+        logger.info("获取的数据"+name+"  "+id);
+        userService.updataHome(name,id);
+    }
 
 
 
@@ -89,7 +84,7 @@ public class LSYMainController {
         //确认此次GET请求来自微信服务器，原样返回echostr参数内容，则接入生效，成为开发者成功，否则接入失败
         PrintWriter out = response.getWriter();
         if(WebChatUtil.checkSignature(signature, timestamp, nonce)){
-            System.out.println("=======请求校验成功======" + echostr);
+            logger.info("=======请求校验成功======" + echostr);
             out.print(echostr);
         }
         out.close();
@@ -129,7 +124,7 @@ public class LSYMainController {
             }else{
                 xml = wechatService.parseMessage(map);
             }
-            System.out.println("生成的 xml"+xml);
+            logger.info("生成的 xml"+xml);
             response.getWriter().write(xml);
         } catch (Exception ex) {
             response.getWriter().write("");

@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface UserService {
 
-
     List<UserDao> getAllData();
+
+    void updataHome(String name,Integer id);
 }
