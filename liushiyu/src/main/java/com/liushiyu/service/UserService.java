@@ -8,5 +8,5 @@ public interface UserService {
 
     List<UserDao> getAllData();
 
-    void updataHome(String name,Integer id);
+    int updataHome(String name,Integer id);
 }

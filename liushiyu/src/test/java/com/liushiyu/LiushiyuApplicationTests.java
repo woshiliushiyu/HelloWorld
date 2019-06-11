@@ -15,21 +15,9 @@ import java.util.List;
 @SpringBootTest
 public class LiushiyuApplicationTests {
 
-    @Autowired
-    private UserService userService;
-
-    @Autowired
-    private WechatService wechatService;
 
     @Test
     public void contextLoads() {
-
-        System.out.println(userService.getAllData());
-    }
-
-
-    @Test
-    public void wechatAction() {
 
     }
 

@@ -24,13 +24,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updataHome(String name, Integer id) {
+    public int updataHome(String name, Integer id) {
         UserDaoExample userDaoExample = new UserDaoExample();
         UserDaoExample.Criteria criteria = userDaoExample.createCriteria();
         criteria.andIdEqualTo(id);
-        criteria.andNameEqualTo(name);
         UserDao userDao = new UserDao();
-        userDao.setHome(name);
-        userDaoMapper.updateByExampleSelective(null,userDaoExample);
+        userDao.setName(name);
+        return userDaoMapper.updateByExampleSelective(userDao,userDaoExample);
     }
 }

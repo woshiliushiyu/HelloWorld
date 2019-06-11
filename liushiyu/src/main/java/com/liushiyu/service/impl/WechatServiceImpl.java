@@ -76,6 +76,8 @@ public class WechatServiceImpl implements WechatService {
                     respXml = respWithXml(fromUserName, toUserName, MsgType, msgContent);
                 }
 
+            }else if (MsgType.equals(ResponseMessageType.LINK_MESSAGE)) {
+
             } else {
                 respXml = respWithXml(fromUserName,toUserName,MsgType,msgContent);
             }

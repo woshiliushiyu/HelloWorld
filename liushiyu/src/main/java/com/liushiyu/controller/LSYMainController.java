@@ -47,6 +47,14 @@ public class LSYMainController {
         return userService.getAllData();
     }
 
+    @ApiOperation(value = "测试链接", notes = "notes", httpMethod = "GET")
+    @RequestMapping(value = "/index",method = RequestMethod.GET)
+    @ResponseBody
+    public String index() {
+        logger.info("请求成功");
+        return "请求成功";
+    }
+
 
     /**
      * 测试 POST 请求
@@ -60,9 +68,9 @@ public class LSYMainController {
     })
     @RequestMapping(value = "/check",method = RequestMethod.POST)
     @ResponseBody
-    public void update(@RequestParam("name") String name, @RequestParam("id") Integer id) {
+    public int update(@RequestParam("name") String name, @RequestParam("id") Integer id) {
         logger.info("获取的数据"+name+"  "+id);
-        userService.updataHome(name,id);
+        return userService.updataHome(name,id);
     }
 
 
