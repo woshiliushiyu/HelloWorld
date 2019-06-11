@@ -52,7 +52,7 @@ public class LSYMainController {
     @ResponseBody
     public String index() {
         logger.info("请求成功");
-        return "请求成功";
+        return "connection successful";
     }
 
 

@@ -3,49 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e5d5fc49-84a5-4957-8ae5-c7001e3501b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/LiushiyuApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/bean/UserDaoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/bean/WechatDaoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/config/ServletContextConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/controller/LSYMainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/UserDaoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/UserDaoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/UserDaoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/UserDaoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/WechatDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/WechatDaoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/WechatDaoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/WechatDaoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/WechatDaoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/outputMessage/Articles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/outputMessage/BaseOutputMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/outputMessage/NewsOutputMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/dao/outputMessage/TextMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/WechatService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/impl/WechatServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/CollectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/ReplyMessageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/ResponseMessageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/WebChatUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/WebChatUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/util/XmlUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/liushiyu/target/test-classes/com/liushiyu/LiushiyuApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/test-classes/com/liushiyu/LiushiyuApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,85 +24,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/WechatDaoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/WechatDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/ReplyMessageUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/WechatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/outputMessage/BaseOutputMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/outputMessage/NewsOutputMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="212">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +95,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +158,6 @@
         <option value="$PROJECT_DIR$/cms_data/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/UserDaoMapper.java" />
-        <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/CollectionUtil.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/ResponseMessageType.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/StringUtil.java" />
@@ -220,14 +172,16 @@
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/LiushiyuApplication.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/liushiyu/pom.xml" />
-        <option value="$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java" />
         <option value="$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" />
+        <option value="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java" />
+        <option value="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/WechatDao.java" />
+        <option value="$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -442,7 +396,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560222534374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560254181881" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -558,7 +512,7 @@
       <workItem from="1559616114426" duration="10486000" />
       <workItem from="1559703894140" duration="3459000" />
       <workItem from="1559726136197" duration="1637000" />
-      <workItem from="1560222345159" duration="259000" />
+      <workItem from="1560222345159" duration="1607000" />
     </task>
     <servers />
   </component>
@@ -595,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34560000" />
+    <option name="totallyTimeSpent" value="35908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
@@ -640,7 +594,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/service/serviceImpl/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/dao/UserDaoMapper.java" />
     <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserBeanExample.java" />
     <entry file="file://$PROJECT_DIR$/cms_data/src/main/java/com/cnlive/bean/UserDaoExample.java" />
@@ -658,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -714,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/WechatDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/ServletContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -766,23 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/LiushiyuApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -800,24 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/ResponseMessageType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/WechatDaoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -852,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/util/ReplyMessageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -876,16 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -900,30 +791,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        <state relative-caret-position="333">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/UserDaoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/UserDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="212">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/WechatDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/bean/WechatDaoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/resources/mapper/WechatDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/LSYMainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
