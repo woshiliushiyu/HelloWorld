@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d5fc49-84a5-4957-8ae5-c7001e3501b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/HttpAPIService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/IdleConnectionEvictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/config/RestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/controller/HttpResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/weatherDao/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/weatherDao/Forecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/weatherDao/JsonRootBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/dao/weatherDao/Yesterday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/src/test/java/com/liushiyu/LiushiyuApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/controller/LSYMainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/controller/LSYMainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/impl/WechatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/classes/com/liushiyu/service/impl/WechatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liushiyu/target/test-classes/com/liushiyu/LiushiyuApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/liushiyu/target/test-classes/com/liushiyu/LiushiyuApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="e5d5fc49-84a5-4957-8ae5-c7001e3501b0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/liushiyu/target/" />
@@ -37,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+            <state relative-caret-position="416">
+              <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -548,7 +529,7 @@
       <workItem from="1559726136197" duration="1637000" />
       <workItem from="1560222345159" duration="3797000" />
       <workItem from="1560424439962" duration="5666000" />
-      <workItem from="1560490485235" duration="1344000" />
+      <workItem from="1560490485235" duration="1629000" />
     </task>
     <servers />
   </component>
@@ -585,7 +566,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45108000" />
+    <option name="totallyTimeSpent" value="45393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1280" height="726" extended-state="0" />
@@ -1000,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liushiyu/src/main/java/com/liushiyu/service/impl/WechatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        <state relative-caret-position="416">
+          <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
