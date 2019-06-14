@@ -32,4 +32,5 @@ public class UserServiceImpl implements UserService {
         userDao.setName(name);
         return userDaoMapper.updateByExampleSelective(userDao,userDaoExample);
     }
+
 }

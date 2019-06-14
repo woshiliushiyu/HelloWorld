@@ -1,11 +1,15 @@
 package com.liushiyu.service.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.liushiyu.bean.WechatDaoMapper;
+import com.liushiyu.config.HttpAPIService;
 import com.liushiyu.dao.WechatDao;
 import com.liushiyu.dao.WechatDaoExample;
 import com.liushiyu.dao.outputMessage.Articles;
 import com.liushiyu.dao.outputMessage.NewsOutputMessage;
 import com.liushiyu.dao.outputMessage.TextMessage;
+import com.liushiyu.dao.weatherDao.Forecast;
+import com.liushiyu.dao.weatherDao.JsonRootBean;
 import com.liushiyu.service.WechatService;
 import com.liushiyu.util.ReplyMessageUtil;
 import com.liushiyu.util.ResponseMessageType;
@@ -25,6 +29,9 @@ public class WechatServiceImpl implements WechatService {
     @Autowired
     private WechatDaoMapper wechatHomeMapper;
 
+    @Autowired
+    private HttpAPIService httpAPIService;
+
     /**
      * 对发送消息进行处理
      * @param map
@@ -33,55 +40,69 @@ public class WechatServiceImpl implements WechatService {
     @Override
     public String parseMessage(Map<String, String> map) {
         String respXml = null;
+        // 发送方帐号
+        String fromUserName = map.get("FromUserName");
+        // 开发者微信号
+        String toUserName = map.get("ToUserName");
+        // 取得消息类型
+        String MsgType = map.get("MsgType");
+        //获取消息内容
+        String msgContent = map.get("Content");
+
+        logger.info("客户端发来的消息进行打印"+map.toString());
         try {
-            // 发送方帐号
-            String fromUserName = map.get("FromUserName");
-            // 开发者微信号
-            String toUserName = map.get("ToUserName");
-            // 取得消息类型
-            String MsgType = map.get("MsgType");
-            //获取消息内容
-            String msgContent = map.get("Content");
-
-            logger.info("客户端发来的消息进行打印"+map.toString());
-
             if (MsgType.equals(ResponseMessageType.TEXT_MESSAGE)) {
 
-                NewsOutputMessage message01 = new NewsOutputMessage();
-                message01.setToUserName(fromUserName);
-                message01.setFromUserName(toUserName);
-                message01.setCreateTime(new Date().getTime());
-                message01.getMsgType();
+//                NewsOutputMessage message01 = new NewsOutputMessage();
+//                message01.setToUserName(fromUserName);
+//                message01.setFromUserName(toUserName);
+//                message01.setCreateTime(new Date().getTime());
+//                message01.getMsgType();
 
-                WechatDaoExample example = new WechatDaoExample();
-                WechatDaoExample.Criteria criteria = example.createCriteria();
-                criteria.andContentEqualTo(msgContent);
-                WechatDao bean = wechatHomeMapper.selectByExample(example).get(0);
+//                WechatDaoExample example = new WechatDaoExample();
+//                WechatDaoExample.Criteria criteria = example.createCriteria();
+//                criteria.andContentEqualTo(msgContent);
+//                WechatDao bean = wechatHomeMapper.selectByExample(example).get(0);
+//
+//                if (bean != null) {
+//
+//                    Articles article00 = new Articles();
+//                    article00.setDescription(bean.getResdesc()); // 图文消息的描述
+//                    article00.setPicUrl(bean.getResimage()); // 图文消息图片地址
+//                    article00.setTitle(bean.getResname()); // 图文消息标题
+//                    article00.setUrl(bean.getResurl()); // 图文 url 链接
+//
+//                    List<Articles> list = new ArrayList<Articles>();
+//                    list.add(article00);// 这里发送的是单图文，如果需要发送多图文则在这里 list 中加入多个
+//
+//                    message01.setArticleCount(list.size());
+//                    message01.setArticles(list);
+//                    respXml = ReplyMessageUtil.sendImageTextMessage(message01);
+//
+//                } else {
+                    String uri = "http://wthrcdn.etouch.cn/weather_mini?city=" + msgContent;
+                    String str = httpAPIService.doGet(uri);
+                    JsonRootBean jsonRootBean = JSONObject.parseObject(str, JsonRootBean.class);
+                    Forecast forecast = jsonRootBean.getData().getForecast().get(0);
+                    System.out.println("获取数据" + forecast.getDate());
+                    logger.info("获取数据" + jsonRootBean.getData().getGanmao());
 
-                if (bean != null) {
+                    String string = forecast.getDate()+"的气温"+forecast.getHigh()+forecast.getLow()+"  "+forecast.getFengxiang()+"  "+forecast.getType();
 
-                    Articles article00 = new Articles();
-                    article00.setDescription(bean.getResdesc()); // 图文消息的描述
-                    article00.setPicUrl(bean.getResimage()); // 图文消息图片地址
-                    article00.setTitle(bean.getResname()); // 图文消息标题
-                    article00.setUrl(bean.getResurl()); // 图文 url 链接
-
-                    List<Articles> list = new ArrayList<Articles>();
-                    list.add(article00);// 这里发送的是单图文，如果需要发送多图文则在这里 list 中加入多个
-
-                    message01.setArticleCount(list.size());
-                    message01.setArticles(list);
-                    respXml = ReplyMessageUtil.sendImageTextMessage(message01);
-                } else {
-                    respXml = respWithXml(fromUserName, toUserName, MsgType, msgContent);
-                }
-
-            }else if (MsgType.equals(ResponseMessageType.LINK_MESSAGE)) {
+                TextMessage textMessage = new TextMessage();
+                textMessage.setToUserName(fromUserName);
+                textMessage.setFromUserName(toUserName);
+                textMessage.setCreateTime(new Date().getTime());
+                textMessage.setContent(msgContent+"的天气情况是:"+string);
+                textMessage.getMsgType();
+                respXml = ReplyMessageUtil.sendTextMessage(textMessage);
+//                }
 
             } else {
                 respXml = respWithXml(fromUserName,toUserName,MsgType,msgContent);
             }
         } catch (Exception e) {
+            respXml = respWithXml(fromUserName,toUserName,MsgType,"暂未找到 \""+msgContent+"\"天气情况");
             e.printStackTrace();
         }
         return respXml;
@@ -106,11 +127,11 @@ public class WechatServiceImpl implements WechatService {
         textMessage.setToUserName(fromUserName);
         textMessage.setFromUserName(toUserName);
         textMessage.setCreateTime(new Date().getTime());
-        textMessage.setContent("现在发这些我还不知道怎么做呢?");
+        textMessage.setContent(msgContent);
         textMessage.getMsgType();
         String respXml = ReplyMessageUtil.sendTextMessage(textMessage);
         replyMap.put("MsgType", ResponseMessageType.RESP_MESSAGE_TYPE_TEXT);
-        replyMap.put("Content", "现在发这些我还不知道怎么做呢?");
+        replyMap.put("Content", msgContent);
         respXml = XmlUtil.xmlFormat(replyMap, true);
 
         return respXml;
