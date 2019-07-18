@@ -80,14 +80,15 @@ public class WechatServiceImpl implements WechatService {
 //                    respXml = ReplyMessageUtil.sendImageTextMessage(message01);
 //
 //                } else {
-                    String uri = "http://wthrcdn.etouch.cn/weather_mini?city=" + msgContent;
-                    String str = httpAPIService.doGet(uri);
-                    JsonRootBean jsonRootBean = JSONObject.parseObject(str, JsonRootBean.class);
-                    Forecast forecast = jsonRootBean.getData().getForecast().get(0);
-                    System.out.println("获取数据" + forecast.getDate());
-                    logger.info("获取数据" + jsonRootBean.getData().getGanmao());
 
-                    String string = forecast.getDate()+"的气温"+forecast.getHigh()+forecast.getLow()+"  "+forecast.getFengxiang()+"  "+forecast.getType();
+
+                String uri = "http://wthrcdn.etouch.cn/weather_mini?city=" + msgContent;
+                String str = httpAPIService.doGet(uri);
+                JsonRootBean jsonRootBean = JSONObject.parseObject(str, JsonRootBean.class);
+                Forecast forecast = jsonRootBean.getData().getForecast().get(0);
+                System.out.println("获取数据" + forecast.getDate());
+                logger.info("获取数据" + jsonRootBean.getData().getGanmao());
+                String string = forecast.getDate()+"的气温"+forecast.getHigh()+forecast.getLow()+"  "+forecast.getFengxiang()+"  "+forecast.getType();
 
                 TextMessage textMessage = new TextMessage();
                 textMessage.setToUserName(fromUserName);
